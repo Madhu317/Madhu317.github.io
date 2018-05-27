@@ -9,6 +9,10 @@
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
+
+
+
+
 /**************/
 /* BASE RULES */
 /**************/
@@ -235,13 +239,13 @@ nav {
   float: Right;
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
-  font-size: 24px;
+  font-size:18px;
 
   @include mobile {
     float: none;
     margin-top: 9px;
     display: block;
-    font-size: 23px;
+    font-size: 16px;
   }
 
   a {
@@ -303,7 +307,7 @@ nav {
 
 footer {
   padding: 20px 0;
-  text-align: left;
+  text-align: center;
 
 }
 
