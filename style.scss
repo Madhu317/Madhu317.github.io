@@ -220,7 +220,7 @@ img {
   color: #1976d2;
   cursor: pointer;
   font-family: $helveticaNeue;
-  font-weight: 300;
+  font-weight: Bold;
   font-size: 28px;
   letter-spacing: 1px;
 }
@@ -239,20 +239,20 @@ nav {
   float: Right;
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
-  font-size:16px;
+  font-size:18px;
 
   @include mobile {
     float: none;
     margin-top: 9px;
     display: block;
-    font-size: 16px;
+    font-size: 18px;
   }
 
   a {
     margin-left: 20px;
     color: #1976d2;
     text-align: right;
-    font-weight: 300;
+    font-weight: Bold;
     letter-spacing: 1px;
 
     @include mobile {
