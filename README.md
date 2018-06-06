@@ -1,4 +1,3 @@
 
-# Jekyll Now
 
 
