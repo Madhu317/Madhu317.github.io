@@ -208,7 +208,9 @@ img {
   /* background: #E6FAFA; */
 
   @include mobile {
-   background: #E0FFFF; 
+  /* background: #E0FFFF;  */
+	  
+	  background: $white ; 
     float: none;
     display: block;
     margin: 0 auto;
