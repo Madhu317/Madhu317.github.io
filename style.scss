@@ -212,12 +212,23 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+	@include clearfix;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    max-width: 100%;
+   margin-bottom: 50px;
+
+	/* old setting margin-bottom: 50px; */
 }
 
 .masthead {
+	position: relative;
+	border-bottom: 1px solid #FF4500;
+	 z-index: 20;
+	/* old setting
   padding: 20px 0;
-  border-bottom: 1px solid #FF4500;
+  border-bottom: 1px solid #FF4500; */
 
   @include mobile {
     text-align: center;
