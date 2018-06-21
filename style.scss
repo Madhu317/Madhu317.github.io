@@ -212,7 +212,7 @@ img {
 //
 
 .wrapper-masthead {
-	@include clearfix;
+	/* @include clearfix; */
     margin-left: auto;
     margin-right: auto;
     padding: 1em;
@@ -350,7 +350,7 @@ nav {
 }
 
 .wrapper-footer {
-  @include clearfix;
+  /* @include clearfix; */
   float: left;
   margin-left: 0;
   margin-right: 0;
