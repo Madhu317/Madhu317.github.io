@@ -213,6 +213,7 @@ img {
 
 .wrapper-masthead {
 	/* @include clearfix; */
+	position: relative;
     margin-left: auto;
     margin-right: auto;
     padding: 1em;
@@ -377,7 +378,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%; */
-  @include clearfix;
+ /* @include clearfix;*/
     margin-left: auto;
     margin-right: auto;
     margin-top: 2em;
