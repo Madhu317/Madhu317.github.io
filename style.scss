@@ -82,7 +82,7 @@ height: 100%; */
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
-  display: inline-block
+ 
 	/* height:100%; */
    /* flex: 1; */
 }
@@ -358,14 +358,14 @@ nav {
   margin-right: 0;
   width: 100%;
   clear: both;
-	position: fixed;
+	position: relative;
   bottom: 0;
   height: 20px;
 	  margin-top: 3em;
 	border-top: 1px solid #FF4500;
   border-bottom: 1px solid #FF4500;
   background-color: $blue;
-	display: inline-block;
+	
 	
 	/*-- old setting
   margin-top: 50px;
@@ -387,7 +387,7 @@ footer {
     max-width: 100%;
     padding: 0 1em 2em;
 	text-align: center;
-	display: inline-block;
+	
 	/*-- old setting
 	padding: 20px 0;
   text-align: center; */
